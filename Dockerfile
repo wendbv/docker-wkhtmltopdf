@@ -8,3 +8,5 @@ RUN cp wkhtmltox/bin/* /usr/bin/
 
 COPY locale.gen /etc/locale.gen
 RUN locale-gen
+
+COPY fonts.conf /root/.config/fontconfig/fonts.conf
